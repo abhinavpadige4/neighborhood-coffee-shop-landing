@@ -1,0 +1,37 @@
+{
+  "type": "project",
+  "title": "Neighborhood Coffee Shop Landing Page",
+  "repo_url": "https://github.com/abhinavpadige4/neighborhood-coffee-shop-landing",
+  "deploy_url": "https://neighborhood-coffee-shop-landing-2y8njg4et.vercel.app",
+  "files_created": [
+    {"name": "package.json", "description": "Project dependencies and scripts"},
+    {"name": "tsconfig.json", "description": "TypeScript configuration"},
+    {"name": "tailwind.config.js", "description": "Tailwind CSS configuration with coffee theme"},
+    {"name": "postcss.config.js", "description": "PostCSS configuration"},
+    {"name": "next-env.d.ts", "description": "Next.js TypeScript declarations"},
+    {"name": "src/app/globals.css", "description": "Global CSS with Tailwind directives"},
+    {"name": "src/app/layout.tsx", "description": "Root layout with Inter font"},
+    {"name": "src/app/page.tsx", "description": "Main page assembling all sections"},
+    {"name": "src/components/Header.tsx", "description": "Navigation header with branding"},
+    {"name": "src/components/Hero.tsx", "description": "Hero section with call-to-action"},
+    {"name": "src/components/Menu.tsx", "description": "Menu section with categorized items and prices"},
+    {"name": "src/components/Gallery.tsx", "description": "Responsive image gallery"},
+    {"name": "src/components/Hours.tsx", "description": "Opening hours display"},
+    {"name": "src/components/Contact.tsx", "description": "Contact form with Formspree integration"},
+    {"name": "src/components/Footer.tsx", "description": "Footer with copyright and social links"},
+    {"name": "README.md", "description": "Project documentation with setup instructions"},
+    {"name": "VERCEL_DEPLOYMENT_INFO.md", "description": "Vercel deployment status and instructions"},
+    {"name": "DEPLOYMENT_SUMMARY.md", "description": "Complete project summary"}
+  ],
+  "concepts_covered": [
+    "Next.js 14 App Router",
+    "TypeScript",
+    "Tailwind CSS",
+    "Responsive Design",
+    "Component-Based Architecture",
+    "Form Handling",
+    "Vercel Deployment",
+    "GitHub Integration"
+  ],
+  "problems_solved": 15
+}
