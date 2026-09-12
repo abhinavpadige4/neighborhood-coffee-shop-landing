@@ -55,6 +55,10 @@ This project is configured for easy deployment to Vercel:
 2. Import the repository in Vercel
 3. Vercel will automatically detect the Next.js configuration and deploy
 
+## Live Demo
+
+Visit our live demo: [https://neighborhood-coffee-shop-landing.vercel.app](https://neighborhood-coffee-shop-landing.vercel.app)
+
 ## License
 
 MIT
