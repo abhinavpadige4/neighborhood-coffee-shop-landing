@@ -13,8 +13,10 @@ export default function Contact() {
 
     const formData = new FormData(e.currentTarget);
     const object: Record<string, string> = {};
+    
+    // Convert FormData to plain object, ensuring all values are strings
     formData.forEach((value, key) => {
-      object[key] = value;
+      object[key] = String(value);
     });
 
     try {
