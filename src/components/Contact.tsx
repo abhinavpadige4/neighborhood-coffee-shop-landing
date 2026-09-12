@@ -6,7 +6,7 @@ export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null); // null, 'success', or 'error'
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus(null);
@@ -29,7 +29,7 @@ export default function Contact() {
 
       if (response.ok) {
         setSubmitStatus('success');
-        (e.currentTarget as HTMLFormElement).reset();
+        e.currentTarget.reset();
       } else {
         throw new Error('Form submission failed');
       }
